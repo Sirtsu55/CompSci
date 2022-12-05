@@ -1,0 +1,39 @@
+body
+{
+    font-family: "Comic Sans MS";
+    color: black;
+    background-color: aqua;
+
+}
+
+
+.button {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 100px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin:10px,
+
+}
+
+.img{
+    width: 300;
+    transition: transform 100000000000s;
+}
+
+.img:hover
+{
+    transform: rotate(1000000000000000000000deg);
+}
+
+.big-btn {
+    border-radius: 100px;
+
+    width: 900px;
+    height: 100px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-stretch: ultra-expanded;
+    font-size: x-large;
+}
