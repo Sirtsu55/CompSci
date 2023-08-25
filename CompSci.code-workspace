@@ -4,5 +4,10 @@
 			"path": "."
 		}
 	],
-	"settings": {},
+	"settings": {
+		"maven.view": "hierarchical",
+		"java.project.sourcePaths": [
+			"."
+		]
+	},
 }
