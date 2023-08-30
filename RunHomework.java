@@ -7,7 +7,7 @@ public class RunHomework
 
     public static void main(String[] args)
     {
-        BooleanHomeworks.LeapYear(args);
+        ImperativeHomeworks.HW6(args);
     }
 
 }

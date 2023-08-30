@@ -3,6 +3,23 @@ package Homeworks;
 public class ImperativeHomeworks
 {
 
+    public static void HW6(String[] args)
+    {
+        final int weight = 5;
+        final int startPrice = 3;
+        final int fiveKGprice = startPrice + (5 - 2) * 2;
+        int price = 0;
+
+        if (weight <= 2)
+            price = startPrice;
+        else if (weight <= 5)
+            price = startPrice + (weight - 2) * 2;
+        else
+            price = startPrice + fiveKGprice + (weight - 6) * 3;
+
+        System.out.println(price);
+    }
+
     public static void HW7(String[] args)
     {
         boolean found = false;
