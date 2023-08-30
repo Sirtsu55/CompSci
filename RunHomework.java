@@ -7,7 +7,7 @@ public class RunHomework
 
     public static void main(String[] args)
     {
-        ImperativeHomeworks.HW6(args);
+        ImperativeHomeworks.HW8(args);
     }
 
 }

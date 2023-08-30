@@ -42,22 +42,28 @@ public class ImperativeHomeworks
 
     public static void HW8(String[] args)
     {
+
+        // Part 1
         int a = 10;
 
-        int res = 1;
+        int res1 = 1;
 
         for (int i = 0; i < a; i++)
         {
-            res *= 3;
+            res1 *= 3;
         }
 
+        // Part 2
         int base = 5;
 
+        int res2 = 1;
+
         for (int i = 0; i < a; i++)
         {
-            res *= base;
+            res2 *= base;
         }
 
-        System.out.println(res);
+        System.out.println("Part 1: " + res1);
+        System.out.println("Part 2: " + res2);
     }
 }
