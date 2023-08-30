@@ -5,7 +5,7 @@ public class ImperativeHomeworks
 
     public static void HW6(String[] args)
     {
-        final int weight = 5;
+        final int weight = 7;
         final int startPrice = 3;
         final int fiveKGprice = startPrice + (5 - 2) * 2;
         int price = 0;
@@ -15,7 +15,7 @@ public class ImperativeHomeworks
         else if (weight <= 5)
             price = startPrice + (weight - 2) * 2;
         else
-            price = startPrice + fiveKGprice + (weight - 6) * 3;
+            price = fiveKGprice + (weight - 5) * 3;
 
         System.out.println(price);
     }
@@ -49,6 +49,13 @@ public class ImperativeHomeworks
         for (int i = 0; i < a; i++)
         {
             res *= 3;
+        }
+
+        int base = 5;
+
+        for (int i = 0; i < a; i++)
+        {
+            res *= base;
         }
 
         System.out.println(res);
