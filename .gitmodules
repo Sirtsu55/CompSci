@@ -1,0 +1,6 @@
+[submodule "Deps/Deps/ibio"]
+	path = Deps/Deps/ibio
+	url = https://github.com/hurrja/ibio.git
+[submodule "Deps/ibio"]
+	path = Deps/ibio
+	url = https://github.com/hurrja/ibio.git
