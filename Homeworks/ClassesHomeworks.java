@@ -34,7 +34,7 @@ public class ClassesHomeworks
             if (op.equals("add"))
             {
                 System.out.println(a + b);
-            } else if (op.equals("subtract"))
+            } else if (op.equals("sub"))
             {
                 System.out.println(a - b);
             } else
@@ -62,7 +62,6 @@ public class ClassesHomeworks
             System.out.print(piece + " ");
 
             leftover = leftover.substring(next + args[1].length());
-
         }
     }
 
