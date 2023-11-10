@@ -1,3 +1,6 @@
 [submodule "ibio"]
 	path = ibio
 	url = https://github.com/hurrja/ibio.git
+[submodule "ibcsutils"]
+	path = ibcsutils
+	url = https://www.github.com/hurrja/ibcsutils.git
