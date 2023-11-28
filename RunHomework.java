@@ -8,6 +8,7 @@ import Homeworks.ClassesHomeworks;
 import Homeworks.PracticeExam;
 import Homeworks.NestedLoops;
 import Homeworks.ArrayAlgorithmHomeworks;
+import Homeworks.DebuggingHomeworks;
 
 import ibio.Helpers.*;
 
@@ -16,7 +17,7 @@ public class RunHomework
 
     public static void main(String[] args)
     {
-        ArrayAlgorithmHomeworks.HW5(args);
+        // DebuggingHomeworks.HW2(args);
     }
 
 }
