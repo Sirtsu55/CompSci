@@ -9,15 +9,16 @@ import Homeworks.PracticeExam;
 import Homeworks.NestedLoops;
 import Homeworks.ArrayAlgorithmHomeworks;
 import Homeworks.DebuggingHomeworks;
+import Homeworks.RecursiveHomeworks;
 
-import ibio.Helpers.*;
+import ibio.Helpers;
 
 public class RunHomework
 {
 
     public static void main(String[] args)
     {
-        // DebuggingHomeworks.HW2(args);
+        RecursiveHomeworks.HW1(args);
     }
 
 }
