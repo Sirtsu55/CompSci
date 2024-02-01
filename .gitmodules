@@ -4,3 +4,6 @@
 [submodule "ibcsutils"]
 	path = ibcsutils
 	url = https://www.github.com/hurrja/ibcsutils.git
+[submodule "ibadts"]
+	path = ibadts
+	url = https://github.com/hurrja/ibadts.git
