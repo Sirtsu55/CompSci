@@ -10,6 +10,9 @@ import Homeworks.NestedLoops;
 import Homeworks.ArrayAlgorithmHomeworks;
 import Homeworks.DebuggingHomeworks;
 import Homeworks.RecursiveHomeworks;
+import Homeworks.StackHomeworks;
+import Homeworks.UserInterface;
+import Homeworks.QueueHomeworks;
 
 import ibio.Helpers;
 
@@ -18,7 +21,7 @@ public class RunHomework
 
     public static void main(String[] args)
     {
-        RecursiveHomeworks.HW1(args);
+        QueueHomeworks.HW4(args);
     }
 
 }
