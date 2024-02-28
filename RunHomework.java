@@ -13,6 +13,8 @@ import Homeworks.RecursiveHomeworks;
 import Homeworks.StackHomeworks;
 import Homeworks.UserInterface;
 import Homeworks.QueueHomeworks;
+import Homeworks.LinkedListHomeworks;
+import Homeworks.TreeHomeworks;
 
 import ibio.Helpers;
 
@@ -21,7 +23,7 @@ public class RunHomework
 
     public static void main(String[] args)
     {
-        QueueHomeworks.HW4(args);
+        TreeHomeworks.Example2(args);
     }
 
 }
